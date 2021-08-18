@@ -1,5 +1,6 @@
 ﻿![](https://javascript30.com/images/JS3-social-share.png)
-
+ downloaded from:
+https://github.com/wesbos/JavaScript30
 
 # Commited myself to the Javascript 30 day challenge started August 17th.
 
