@@ -4,6 +4,7 @@
 # Commited myself to the Javascript 30 day challenge started August 17th.
 
 - Day 1: JavaScript Drum Kit. August 17th. ✅
+- Day 2: Js and CSS Clock. August 18th. ✅
 # JavaScript30
 
 Starter Files + Completed solutions for the JavaScript 30 Day Challenge.
