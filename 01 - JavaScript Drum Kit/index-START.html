@@ -8,6 +8,8 @@
 <body>
 
 
+
+
   <div class="keys">
     <div data-key="65" class="key">
       <kbd>A</kbd>
@@ -59,8 +61,36 @@
 
 <script>
 
+  function playSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+    if(!audio) return; //stop the function from running all together
+    audio.currentTime = 0; //rewind to the start
+    audio.play();
+    key.classList.add('playing');
+    }
+  
+  function removeTransition(e) {
+    if (e.propertyName !== 'transform') return; // skip it if it's not a transform
+    this.classList.remove('playing');
+    }
+
+  const keys = document.querySelectorAll(`.key`);
+  keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+  window.addEventListener('keydown', playSound); 
 </script>
 
 
 </body>
 </html>
+<!--
+
+  learning notes:
+Transitions were new in this context. interesting to see them fired off from event listiners!!
+
+keyCode, to select/listen for spesific keys being pressed.
+
+
+
+  
+-->
