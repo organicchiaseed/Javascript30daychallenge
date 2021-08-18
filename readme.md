@@ -5,6 +5,8 @@
 
 - Day 1: JavaScript Drum Kit. August 17th. ✅
 - Day 2: Js and CSS Clock. August 18th. ✅
+- Day 3: CSS Variables. August 19th. ◻
+
 # JavaScript30
 
 Starter Files + Completed solutions for the JavaScript 30 Day Challenge.
