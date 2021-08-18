@@ -1,5 +1,6 @@
 ﻿![](https://javascript30.com/images/JS3-social-share.png)
 
+# Commited myself to the Javascript 30 day challenge started August 17th.
 # JavaScript30
 
 Starter Files + Completed solutions for the JavaScript 30 Day Challenge.
