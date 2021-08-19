@@ -33,6 +33,10 @@
       filter: blur(var(--blur));
     }
 
+    .h1 {
+      color: var(--base);
+    }
+
     /*
       misc styles, nothing to do with CSS variables
     */
@@ -56,6 +60,15 @@
   </style>
 
   <script>
+    const inputs=document.querySelectorAll(`.controls input`)
+
+    function handleUpdate() {
+      const suffix = this.dataset.sizing || '';
+      document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
+    }
+
+    inputs.forEach(input => input.addEventListener('change', handleUpdate));
+    inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
   </script>
 
 </body>
@@ -69,6 +82,9 @@
   - The :root CSS pseudo-class matches the root element of a tree representing the document. In HTML, :root represents the <html> element and is identical to the selector html, except that its specificity is higher.
   - The var() function is used to insert the value of a CSS variable.
   - The variable name must begin with two dashes (--) and it is case sensitive!
+  - a NodeList is a collection of nodes that can be used to access and manipulate DOM elements, while an array is a JavaScript object which can hold more than one value at a time.
+  - data-* attributes allow us to store extra information on standard, semantic HTML elements without other hacks such as non-standard attributes, or extra properties on DOM.
+  - When you use a CSS variable you can update that variable on any element and any selectors that are inside that element that references that variable will be using it.
 
 -->
   
