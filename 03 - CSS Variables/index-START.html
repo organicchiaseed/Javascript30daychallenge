@@ -27,6 +27,12 @@
       --blur: 10px;
     }
 
+    img {
+      padding: var(--spacing);
+      background: var(--base);
+      filter: blur(var(--blur));
+    }
+
     /*
       misc styles, nothing to do with CSS variables
     */
@@ -54,3 +60,16 @@
 
 </body>
 </html>
+
+
+<!-- 
+  
+  learning notes: 
+  
+  - The :root CSS pseudo-class matches the root element of a tree representing the document. In HTML, :root represents the <html> element and is identical to the selector html, except that its specificity is higher.
+  - The var() function is used to insert the value of a CSS variable.
+  - The variable name must begin with two dashes (--) and it is case sensitive!
+
+-->
+  
+ 
