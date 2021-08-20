@@ -59,6 +59,12 @@
     // Array.prototype.reduce()
     // 4. How many years did all the inventors live all together?
 
+    const totalYears = inventors.reduce((total, inventor) => {
+      return total + (inventor.passed - inventor.year);
+    }, 0);
+    
+    console.log(totalYears);
+
     // 5. Sort the inventors by years lived
 
     // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
@@ -83,6 +89,7 @@
   - The filter() method creates a new array with all elements that pass the test implemented by the provided function. 
   - The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
   - The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
-  
+  - The reduce() method executes a user-supplied “reducer” callback function on each element of the array, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements of the array is a single value. Perhaps the easiest-to-understand case for reduce() is to return the sum of all the elements in an array.
+
 
 -->
