@@ -52,6 +52,10 @@
     // Array.prototype.sort()
     // 3. Sort the inventors by birthdate, oldest to youngest
 
+    const ordered = inventors.sort((a, b) => a.year > b.year ? 1 : -1);
+
+    console.table(ordered)
+
     // Array.prototype.reduce()
     // 4. How many years did all the inventors live all together?
 
@@ -78,5 +82,7 @@
 
   - The filter() method creates a new array with all elements that pass the test implemented by the provided function. 
   - The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
+  - The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
+  
 
 -->
