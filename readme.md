@@ -8,7 +8,8 @@ https://github.com/wesbos/JavaScript30
 - Day 2: Js and CSS Clock. August 18th. ✅
 - Day 3: CSS Variables. August 19th. ✅
 - Day 4: Array Cardio Day 1. August 20th. ✅
-- Day 5: Flex Panel Gallery. August 21st ◻
+- Day 5: Flex Panel Gallery. August 21st ✅
+- Day 6: Type Ahead. August 22nd ◻
 
 # JavaScript30
 
