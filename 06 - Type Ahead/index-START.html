@@ -23,6 +23,14 @@ fetch(endpoint)
   .then(blob => blog.json())
   .then(data => cities.push(...data))
 
+function findMatches(wordToMatch, cities) {
+  return cities.filter(place => {
+    //here we need to figure out if the city or state matches what was searched
+    const regex = new RegExp(wordToMatch, 'gi');
+    return place.city.match(regex) || place.state.match(regex)
+  })
+}
+
 </script>
 </body>
 </html>
@@ -32,5 +40,8 @@ fetch(endpoint)
   Learning notes: 
   - The fetch() method takes one mandatory argument, the path to the resource you want to fetch. It returns a Promise that resolves to the Response to that request — as soon as the server responds with headers — even if the server response is an HTTP error status.
   - ES6 provides a new operator called spread operator that consists of three dots (...). The spread operator allows you to spread out elements of an iterable object such as an array,a  map, or a set.
+  - 
+The REGEX function matches a string to a regular expression and returns true (1) if it matches and false (0) if it does not match.
+
 
 -->
