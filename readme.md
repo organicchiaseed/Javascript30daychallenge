@@ -9,7 +9,8 @@ https://github.com/wesbos/JavaScript30
 - Day 3: CSS Variables. August 19th. ✅
 - Day 4: Array Cardio Day 1. August 20th. ✅
 - Day 5: Flex Panel Gallery. August 21st ✅
-- Day 6: Type Ahead. August 22nd ◻
+- Day 6: Ajax Type Ahead. August 22nd ✅
+- Day 7: Array Cardio Day 2. August 23rd ◻ 
 
 # JavaScript30
 
