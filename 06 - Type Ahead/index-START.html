@@ -31,9 +31,24 @@ function findMatches(wordToMatch, cities) {
   });
 }
 
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+}
+
 function displayMatches() {
   const matchArray = findMatches(this.value, cities);
-  console.log(matchArray);
+  const html = matchArray.map(place => {
+    const regex = new RegExp(this.value, 'gi');
+    const cityName = place.city.replace(regex, `<span class="hl">${this.value}</span>`);
+    const stateName = place.state.replace(regex, `<span class="hl">${this.value}</span>`);
+    return `
+      <li>
+        <span class="name">${cityName}, ${stateName}</span>
+        <span class="population">${numberWithCommas(place.population)}</span>
+      </li>
+    `;
+  }).join('');
+  suggestions.innerHTML = html;
 }
 
 const searchInput = document.querySelector('.search');
@@ -51,8 +66,9 @@ searchInput.addEventListener('keyup', displayMatches);
   Learning notes: 
   - The fetch() method takes one mandatory argument, the path to the resource you want to fetch. It returns a Promise that resolves to the Response to that request — as soon as the server responds with headers — even if the server response is an HTTP error status.
   - ES6 provides a new operator called spread operator that consists of three dots (...). The spread operator allows you to spread out elements of an iterable object such as an array,a  map, or a set.
-  - 
-The REGEX function matches a string to a regular expression and returns true (1) if it matches and false (0) if it does not match.
+  - The REGEX function matches a string to a regular expression and returns true (1) if it matches and false (0) if it does not match.
+  - The gi modifier is used to do a case insensitive search of all occurrences of a regular expression in a string.
+  - numberWithCommas(x) used to place a comma in thousands.
 
 
 -->
