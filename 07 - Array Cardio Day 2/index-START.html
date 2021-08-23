@@ -43,6 +43,15 @@
     // Find the comment with this ID
     // delete the comment with the ID of 823423
 
+    const index = comments.findIndex(comment => comment.id === 823423);
+    console.log(index);
+
+    const newComments = [
+      ... comments.slice(0, index),
+      ... comments.slice(index + 1)
+    ];
+
+
   </script>
 </body>
 </html>
@@ -53,5 +62,6 @@
   - The some() method tests whether at least one element in the array passes the test implemented by the provided function. It returns true if, in the array, it finds an element for which the provided function returns true; otherwise it returns false. It doesn't modify the array.
   - The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
   - The find() method returns the value of the first element in the provided array that satisfies the provided testing function. If no values satisfy the testing function, undefined is returned.
+  - The findIndex() method returns the index of the first element in the array that satisfies the provided testing function. Otherwise, it returns -1, indicating that no element passed the test.
   
  -->
