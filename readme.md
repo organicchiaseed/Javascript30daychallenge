@@ -8,9 +8,14 @@ https://github.com/wesbos/JavaScript30
 - Day 2: Js and CSS Clock. August 18th. ✅
 - Day 3: CSS Variables. August 19th. ✅
 - Day 4: Array Cardio Day 1. August 20th. ✅
-- Day 5: Flex Panel Gallery. August 21st ✅
-- Day 6: Ajax Type Ahead. August 22nd ✅
-- Day 7: Array Cardio Day 2. August 23rd ◻ 
+- Day 5: Flex Panel Gallery. August 21st. ✅
+- Day 6: Ajax Type Ahead. August 22nd. ✅
+- Day 7: Array Cardio Day 2. August 23rd. ✅
+- Day 8: Fun with HTML5 Canvas. August 24th. ◻
+- Day 9: 14 Must Know Dev Tools Tricks. August 25th. ◻
+- Day 10: Hold Shift to Check Multiple Checkboxes. August 26th. ◻
+- Day 11: Custome HTML5 Video Player. August 27th. ◻
+- Day 12: Key Sequence Detection (KONAMI CODE). August 28th. ◻ 
 
 # JavaScript30
 
