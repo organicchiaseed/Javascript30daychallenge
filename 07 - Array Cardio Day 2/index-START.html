@@ -26,7 +26,12 @@
 
     // Some and Every Checks
     // Array.prototype.some() // is at least one person 19 or older?
+
+    const isAdult = people.some(person => ((new Date()).getFullYear()) - person.year >= 19);
+
     // Array.prototype.every() // is everyone 19 or older?
+
+    const allAdults = people.every(person => ((new Date()).getFullYear()) - person.year >= 19);
 
     // Array.prototype.find()
     // Find is like filter, but instead returns just the one you are looking for
@@ -39,3 +44,11 @@
   </script>
 </body>
 </html>
+
+<!-- 
+  
+  Learning Notes:
+  - The some() method tests whether at least one element in the array passes the test implemented by the provided function. It returns true if, in the array, it finds an element for which the provided function returns true; otherwise it returns false. It doesn't modify the array.
+  - The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
+
+ -->
