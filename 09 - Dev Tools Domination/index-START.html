@@ -47,7 +47,16 @@
     console.log(p);
     console.dir(p);
 
+    console.clear();
+
     // Grouping together
+    dogs.forEach(dog => {
+      console.groupCollapsed(`${dog.name}`);
+      console.log(`This is ${dog.name}`);
+      console.log(`${dog.name} is ${dog.age} years old`);
+      console.log(`${dog.name} is ${dog.age * 7} dog years old`);
+      console.groupEnd(`${dog.name}`);
+    });
 
     // counting
 
@@ -62,6 +71,6 @@
   Learning Notes:
   - String interpolation is replacing placeholders with values in a string literal. 
   - %c = Applies CSS style rules to the output string as specified by the second parameter.
-
+  - The console.group() method creates a new inline group in the Web console log. This indents following console messages by an additional level, until console.groupEnd() is called.
 
 -->
