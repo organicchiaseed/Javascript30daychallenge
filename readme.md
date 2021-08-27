@@ -14,8 +14,16 @@ https://github.com/wesbos/JavaScript30
 - Day 8: Fun with HTML5 Canvas. August 24th. ✅
 - Day 9: 14 Must Know Dev Tools Tricks. August 25th. ✅
 - Day 10: Hold Shift to Check Multiple Checkboxes. August 26th. ✅
-- Day 11: Custom HTML5 Video Player. August 27th. ◻
+- Day 11: Custom HTML5 Video Player. August 27th. ✅
 - Day 12: Key Sequence Detection (KONAMI CODE). August 28th. ◻ 
+- Day 13: Slide In on Scroll. August 29th.
+- Day 14: Object and Arrays - Reference VS Copy. August 30th.
+- Day 15: LocalStorage and Event Delegation. August 31st.
+- Day 16: CSS Text Shadow Mouse Move Effect. September 1st.
+- Day 17: Sorting Band Names without articles. September 2nd.
+- Day 18: Tally String Times with Reduce. September 3rd.
+- Day 19: Unreal Webcam Fun. September 4th.
+- Day 20: Native Speech Recognition. September 5th.
 
 # JavaScript30
 
