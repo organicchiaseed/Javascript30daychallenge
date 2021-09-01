@@ -19,7 +19,7 @@ https://github.com/wesbos/JavaScript30
 - Day 13: Slide In on Scroll. August 29th. ✅
 - Day 14: Object and Arrays - Reference VS Copy. August 30th. ✅
 - Day 15: LocalStorage and Event Delegation. August 31st. ✅
-- Day 16: CSS Text Shadow Mouse Move Effect. September 1st.
+- Day 16: CSS Text Shadow Mouse Move Effect. September 1st. ✅
 - Day 17: Sorting Band Names without articles. September 2nd.
 - Day 18: Tally String Times with Reduce. September 3rd.
 - Day 19: Unreal Webcam Fun. September 4th.
