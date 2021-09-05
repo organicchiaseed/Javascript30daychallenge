@@ -24,8 +24,8 @@ https://github.com/wesbos/JavaScript30
 - Day 18: Tally String Times with Reduce. September 3rd. ✅
 - Day 19: Unreal Webcam Fun. September 4th.
 - Day 20: Native Speech Recognition. September 4th. ✅
-- Day 21: Geolocation Based Speedometer and Compass. September 6th.
-- Day 22: Follow Along Links. September 7th. 
+- Day 21: Geolocation Based Speedometer and Compass. September 5th. 
+- Day 22: Follow Along Links. September 6th. ✅
 - Day 23: Speech Synthesis September 8th.
 - Day 24: Sticky Nav. September 9th.
 - Day 25: Event Capture, Proagation, Bubbling and Once. Septermber 10th.
