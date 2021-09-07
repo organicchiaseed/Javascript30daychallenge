@@ -22,19 +22,19 @@ https://github.com/wesbos/JavaScript30
 - Day 16: CSS Text Shadow Mouse Move Effect. September 1st. ✅
 - Day 17: Sorting Band Names without articles. September 2nd. ✅
 - Day 18: Tally String Times with Reduce. September 3rd. ✅
-- Day 19: Unreal Webcam Fun. September 4th.
+- Day 19: Unreal Webcam Fun. N/A.
 - Day 20: Native Speech Recognition. September 4th. ✅
-- Day 21: Geolocation Based Speedometer and Compass. September 5th. 
+- Day 21: Geolocation Based Speedometer and Compass. N/A. 
 - Day 22: Follow Along Links. September 5th. ✅
 - Day 23: Speech Synthesis September 6th. ✅
-- Day 24: Sticky Nav. September 9th.
-- Day 25: Event Capture, Proagation, Bubbling and Once. Septermber 10th.
-- Day 26: Stripe Follow Along Dropdown. September 11th.
-- Day 27: Click and Drag to Scroll. September 12th.
-- Day 28: Video Speed Controller UI. September 13th.
-- Day 29: Countdown Clock. September 14th.
-- Day 30: Whack A Mole Game. September 15th.
-- Day 31: That's All Folks! September 16th.
+- Day 24: Sticky Nav. September 7th. ✅
+- Day 25: Event Capture, Proagation, Bubbling and Once. Septermber 8th.
+- Day 26: Stripe Follow Along Dropdown. September 9th.
+- Day 27: Click and Drag to Scroll. September 10th.
+- Day 28: Video Speed Controller UI. September 11th.
+- Day 29: Countdown Clock. September 12th.
+- Day 30: Whack A Mole Game. September 13th.
+- Day 31: That's All Folks! September 14th.
 
 # JavaScript30
 
