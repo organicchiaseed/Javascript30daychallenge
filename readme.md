@@ -28,7 +28,7 @@ https://github.com/wesbos/JavaScript30
 - Day 22: Follow Along Links. September 5th. ✅
 - Day 23: Speech Synthesis September 6th. ✅
 - Day 24: Sticky Nav. September 7th. ✅
-- Day 25: Event Capture, Proagation, Bubbling and Once. Septermber 8th.
+- Day 25: Event Capture, Propagation, Bubbling and Once. Septermber 8th. ✅
 - Day 26: Stripe Follow Along Dropdown. September 9th.
 - Day 27: Click and Drag to Scroll. September 10th.
 - Day 28: Video Speed Controller UI. September 11th.
