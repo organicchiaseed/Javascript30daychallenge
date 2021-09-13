@@ -32,7 +32,7 @@ https://github.com/wesbos/JavaScript30
 - Day 26: Stripe Follow Along Dropdown. September 9th. ✅
 - Day 27: Click and Drag to Scroll. September 11th. ✅
 - Day 28: Video Speed Controller UI. September 12th. ✅
-- Day 29: Countdown Clock. September 
+- Day 29: Countdown Clock. September 13th. ✅
 - Day 30: Whack A Mole Game. September 
 - Day 31: That's All Folks! September
 
